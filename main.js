@@ -92,3 +92,18 @@ function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({ behavior: 'smooth' });
 }
+
+// modal chatting room
+window.onload = function() {
+
+function onClick() {
+    document.querySelector('.modal_wrap').style.display ='block';
+}   
+function offClick() {
+    document.querySelector('.modal_wrap').style.display ='none';
+}
+
+document.getElementById('modal_btn').addEventListener('click', onClick);
+document.querySelector('.modal_close').addEventListener('click', offClick);
+
+};

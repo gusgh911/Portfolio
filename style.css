@@ -472,6 +472,50 @@ p {
   pointer-events: auto;
 }
 
+
+#modal_btn {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: var(--weight-regular);
+  color: var(--color-white);
+  background-color: var(--color-pink);
+  border-radius: 50%;
+}
+
+.modal_wrap{
+  display: none;
+  width: 70%;
+  height: 70%;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  margin: auto;
+  background:var(--color-light-white);
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+.modal_close{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -25px;
+  right: 3px;
+}
+
+.modal_close i{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: var(--color-black);
+  font-size: var(--font-medium);
+}
+
+
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
   :root {

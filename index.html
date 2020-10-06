@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KUK's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for software engineer KUK_HH"
+    />
+    <meta name="author" content="KUK_HH" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#">Portfolio</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="imgs/filename.jpg"
+          alt="KUK's profile photo"
+          class="home__avatar"/> 
+        <h1 class="home__title">Hi, I'm hyun-ho and web developer.</h1>
+        <h2 class="home__description">
+         Do not try to bo original, just try to be good. 
+         -Paul Rand
+        </h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About me</h1>
+      <h3>
+        긍정적이고 적극적인 마인드로 친화적이고 문제해결 능력과 최신 개발 트렌드에 호기심이 강합니다.<br/>
+        팀 환경내에서 독립적으로 작업할 수 있으며, 일정을 계획하고 일정에 따라 신속하게 작업을 진행할 수 있습니다.
+      </h3>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">Front-end</h2>
+          <div class="major__description">
+            HTML, CSS, JavaScript, TypeScript,
+            <br />React, Web APIs
+          </div>
+        </div>
+
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h2 class="major__title">Back-end</h2>
+          <p class="major__description">
+            JavaScript, NodeJS,
+            <br />Rest APIs
+          </p>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p> 반응형 웹 개발부터 NodeJS를 이용한 서버 개발이 가능합니다. </br>
+          특히 JavaScript와 Functional program을 잘 활용하는 웹 개발자가 되고자 합니다.
+        </p>  
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 99%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>TypeScript</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>NodeJS</span>
+                <span>70%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 70%;"></div>
+              </div>
+            </div>
+            <!-- <div class="skill">
+              <div class="skill__description">
+                <span>React</span>
+                <span>60%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 60%;"></div>
+              </div>
+            </div> -->
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <!-- <li><span>Figma</span></li> -->
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>R</span></li>
+                <li><span>Functional Program</span></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+     <div class="section__container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All <span class="category__count">6</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Front-end <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="back-end">
+          Back-end <span class="category__count">3</span>
+        </button>
+        <!-- <button class="category__btn" data-filter="mobile">
+          Mobile <span class="category__count">2</span>
+        </button> -->
+      </div>
+      <div class="work__projects">
+        <a href="" class="project" target="blank" data-type="front-end">
+          <img
+            src="imgs/projects/youtube.png"
+            alt="Youtube"
+            class="project__img"
+          />
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Clone coding with HTML, CSS</span>
+          </div>
+        </a>
+        <a
+          href=""
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/projects/navbar.png"
+            alt="navbar"
+          />
+          <div class="project__description">
+            <h3>Responsive Navbar</h3>
+            <span>HTML, CSS with media query</span>
+          </div>
+        </a>
+        <a
+          href=""
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img class="project__img" src="imgs/projects/game.png" alt="navbar" />
+          <div class="project__description">
+            <h3>Shopping mall game</h3>
+            <span>HTML, CSS, JavaScript, Json</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/projects/chatting.jpg" alt="" />
+          <div class="project__description">
+            <h3>Chatting Site</h3>
+            <span>JavaScript, Node.JS, Socket.io</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/projects/nodeauction.jpg" alt="" />
+          <div class="project__description">
+            <h3>Auction Site</h3>
+            <span>Node.JS, MySQL, Login 등</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/projects/nodebird.jpg" alt="" />
+          <div class="project__description">
+            <h3>SNS site</h3>
+            <span>Node.JS, MySQL, Login 등</span>
+          </div>
+        </a>
+
+      </div>
+     </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">gusgh911@nate.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/gusgh911" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">
+        2020 KUK-HH All rights reserved
+      </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>

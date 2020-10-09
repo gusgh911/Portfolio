@@ -475,15 +475,15 @@ p {
 
 #modal_btn {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  bottom: 5px;
+  left: 5px;
   width: 120px;
   height: 70px;
   font-size: 20px;
   font-weight: var(--weight-regular);
   color: var(--color-white);
   background-color: var(--color-pink);
-  /* border-radius: 20%; */
+  border-radius: 10%;
 }
 
 .modal_wrap{
